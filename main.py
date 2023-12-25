@@ -12,7 +12,7 @@ def send_email(receiver_email: str, subject: str, bodyhtml: str):
     SMTP_URL_FINAL = os.environ.get('SMTP_URL_FINAL')
     SMTP_PORT = os.environ.get('SMTP_PORT')
 
-    sender_email = "hemanthbitraece@gmail.com"
+    sender_email = "hemanth22hemu@gmail.com"
     #receiver_email = "hemanthbitra@live.com"
     message = MIMEMultipart("alternative")
 
